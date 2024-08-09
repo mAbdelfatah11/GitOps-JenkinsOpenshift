@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
   
 oc wait co/authentication --for condition=Progressing \
     --timeout 90s
